@@ -1,0 +1,524 @@
+/* ResearchPilot AI - Professional Flat Dark Theme (Boxed Panel Style) */
+
+/* ── 1. Page Background & Global Padding ── */
+.stApp {
+    background-color: #141414 !important;
+    color: #ECECEC !important;
+}
+
+/* Base App view padding so panels don't touch screen edges */
+[data-testid="stAppViewContainer"] {
+    background-color: #141414 !important;
+    padding: 12px !important;
+    box-sizing: border-box !important;
+}
+
+/* ── 2. Header & Sidebar Controls (Restored & Highly Visible) ── */
+/* Transparent header without height:0 or overflow:hidden so it does not collapse child controls */
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+/* Hide ONLY deployment button, decoration bar, menu and footer */
+[data-testid="stDecoration"],
+[data-testid="stAppDeployButton"],
+.stDeployButton,
+#MainMenu,
+footer {
+    display: none !important;
+}
+
+/* Allow toolbar to exist transparently so it does not hide stExpandSidebarButton */
+[data-testid="stToolbar"] {
+    background: transparent !important;
+}
+
+/* (a) EXACT button that OPENS a collapsed sidebar: stExpandSidebarButton / stSidebarCollapsedControl / collapsedControl */
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="stExpandSidebarButton"],
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: fixed !important;
+    top: 14px !important;
+    left: 14px !important;
+    z-index: 2147483647 !important;
+    width: 36px !important;
+    height: 36px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #262626 !important;
+    border: 1px solid #4A4A4A !important;
+    border-radius: 8px !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* Hover effect on open button */
+[data-testid="stSidebarCollapsedControl"]:hover,
+[data-testid="stExpandSidebarButton"]:hover,
+[data-testid="collapsedControl"]:hover {
+    background: #333333 !important;
+    border-color: #10A37F !important;
+}
+
+/* (b) EXACT button that CLOSES the sidebar: stSidebarCollapseButton */
+[data-testid="stSidebarCollapseButton"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #FFFFFF !important;
+    background: #262626 !important;
+    border: 1px solid #4A4A4A !important;
+    border-radius: 8px !important;
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    min-height: 32px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease !important;
+}
+
+[data-testid="stSidebarCollapseButton"]:hover {
+    background: #333333 !important;
+    border-color: #10A37F !important;
+}
+
+/* White/Light icon visibility inside controls */
+[data-testid="stSidebarCollapsedControl"] *,
+[data-testid="stExpandSidebarButton"] *,
+[data-testid="collapsedControl"] *,
+[data-testid="stSidebarCollapseButton"] * {
+    color: #FFFFFF !important;
+    fill: #FFFFFF !important;
+    stroke: #FFFFFF !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* ── 3. Scrollbars: thin (6px), thumb #3A3A3A, transparent track ── */
+::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3A3A3A !important;
+    border-radius: 6px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4A4A4A !important;
+}
+
+/* ── 4. Sidebar As A Boxed Panel ── */
+section[data-testid="stSidebar"] {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 12px 6px 12px 12px !important;
+    box-sizing: border-box !important;
+}
+
+/* Inner sidebar card */
+section[data-testid="stSidebar"] > div:first-child {
+    background-color: #1C1C1C !important;
+    border: 1px solid #2F2F2F !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35) !important;
+    padding: 12px 16px 16px 16px !important;
+    height: calc(100vh - 24px) !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-y: hidden !important;
+}
+
+/* Sidebar header & 44px logo */
+.rp-sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: -4px;
+    margin-bottom: 12px;
+    padding-top: 0;
+}
+
+.rp-sidebar-logo {
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rp-sidebar-logo img {
+    width: 44px !important;
+    height: 44px !important;
+    display: block !important;
+}
+
+.rp-sidebar-title {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #FFFFFF !important;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+}
+
+/* Slim "+ New Research" button */
+div[data-testid="stSidebar"] button[kind="secondary"]:has(p:contains("New Research")),
+button[data-testid="baseButton-secondary"]:has(p:contains("New Research")),
+div[data-testid="stSidebar"] div.stButton > button:first-of-type {
+    background-color: transparent !important;
+    border: 1px solid #2F2F2F !important;
+    color: #ECECEC !important;
+    border-radius: 8px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    padding: 0 12px !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    margin-bottom: 12px !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease !important;
+}
+
+div[data-testid="stSidebar"] div.stButton > button:first-of-type:hover {
+    background-color: #2A2A2A !important;
+    border-color: #3F3F3F !important;
+    color: #FFFFFF !important;
+}
+
+/* Past Reports section */
+.rp-sidebar-section-title {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: #9B9B9B !important;
+    margin-top: 14px !important;
+    margin-bottom: 8px !important;
+    letter-spacing: 0.8px !important;
+    text-transform: uppercase !important;
+}
+
+.rp-past-reports-scroll {
+    flex: 1 1 auto;
+    max-height: calc(100vh - 240px);
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding-right: 4px;
+    margin-bottom: 8px;
+}
+
+/* Compact report row button with left alignment and ellipsis */
+.rp-past-reports-scroll .stButton {
+    margin-bottom: 2px !important;
+}
+
+.rp-past-reports-scroll .stButton > button {
+    background-color: transparent !important;
+    border: none !important;
+    color: #ECECEC !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    height: 36px !important;
+    min-height: 36px !important;
+    padding: 6px 10px !important;
+    border-radius: 8px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: block !important;
+    line-height: 24px !important;
+    transition: background-color 0.15s ease !important;
+}
+
+.rp-past-reports-scroll .stButton > button:hover {
+    background-color: #2A2A2A !important;
+    color: #FFFFFF !important;
+}
+
+.rp-past-reports-scroll .stButton > button p {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+
+/* Sidebar Footer */
+.rp-sidebar-footer {
+    color: #9B9B9B !important;
+    font-size: 0.72rem !important;
+    text-align: center;
+    margin-top: auto !important;
+    padding-top: 0.75rem;
+    border-top: 1px solid #262626;
+}
+
+/* ── 5. Smaller Chat Area As A Boxed Card (Grows naturally) ── */
+.block-container,
+[data-testid="stMainBlockContainer"] {
+    background-color: #1C1C1C !important;
+    border: 1px solid #2F2F2F !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35) !important;
+    max-width: 860px !important;
+    width: 100% !important;
+    margin: 16px auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: calc(100vh - 32px) !important;
+    overflow-y: auto !important;
+    padding: 20px 24px 80px 24px !important; /* 80px bottom padding prevents hiding last message */
+    box-sizing: border-box !important;
+    position: relative !important;
+}
+
+/* ── 6. Bottom Band Removal & Slim Chat Input ── */
+[data-testid="stBottom"],
+[data-testid="stBottom"] > div,
+[data-testid="stBottomBlockContainer"],
+.stChatFloatingInputContainer {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Position input pinned 16px from bottom, centered, max-width 780px */
+[data-testid="stBottom"] {
+    bottom: 16px !important;
+    padding: 0 !important;
+}
+
+/* Chat Input Outer Box (slimmer, min-height 0, 12px radius, no extra padding) */
+[data-testid="stChatInput"] {
+    background-color: #262626 !important;
+    border: 1px solid #333333 !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+    max-width: 780px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    transition: border-color 0.15s ease !important;
+}
+
+[data-testid="stChatInput"]:focus-within {
+    border-color: #10A37F !important;
+}
+
+/* Remove all inner wrapper padding/margins/borders */
+[data-testid="stChatInput"] > div,
+[data-testid="stChatInput"] [data-baseweb="base-input"],
+[data-testid="stChatInput"] [data-baseweb="textarea"] {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Text area: 40px height, 9px 14px padding, 15px font-size, 22px line-height */
+[data-testid="stChatInput"] textarea,
+[data-testid="stChatInputTextArea"] {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #ECECEC !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    padding: 9px 14px !important;
+    box-sizing: border-box !important;
+    resize: none !important;
+}
+
+/* Send Button: 30px x 30px, margin-right 8px, vertically centered */
+[data-testid="stChatInput"] button {
+    width: 30px !important;
+    height: 30px !important;
+    min-width: 30px !important;
+    min-height: 30px !important;
+    border: none !important;
+    background: transparent !important;
+    color: #ECECEC !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-right: 8px !important;
+    padding: 0 !important;
+    border-radius: 6px !important;
+}
+
+[data-testid="stChatInput"] button:hover {
+    background-color: #333333 !important;
+    color: #10A37F !important;
+}
+
+/* ── 7. Chat Messages Inside Card ── */
+div[data-testid="stChatMessage"] {
+    background: transparent !important;
+    gap: 12px !important;
+    padding: 0.6rem 0 !important;
+    border: none !important;
+    max-width: 780px !important;
+    margin: 0 auto !important;
+}
+
+[data-testid="stChatMessageAvatar"] {
+    width: 28px !important;
+    height: 28px !important;
+    min-width: 28px !important;
+    min-height: 28px !important;
+    font-size: 1.1rem !important;
+    background: transparent !important;
+}
+
+/* User Message: Right aligned, #2F2F2F bubble */
+div[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]),
+.stChatMessage:has(.stChatMessageAvatarUser) {
+    flex-direction: row-reverse !important;
+}
+
+div[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) [data-testid="stChatMessageContent"],
+.stChatMessage:has(.stChatMessageAvatarUser) [data-testid="stChatMessageContent"] {
+    background-color: #2F2F2F !important;
+    color: #ECECEC !important;
+    border-radius: 18px !important;
+    padding: 0.75rem 1.1rem !important;
+    margin-left: auto !important;
+    max-width: 80% !important;
+    box-shadow: none !important;
+}
+
+div[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) p {
+    color: #ECECEC !important;
+    margin: 0 !important;
+}
+
+/* Assistant Message: Plain text on page background */
+div[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarAssistant"]),
+.stChatMessage:has(.stChatMessageAvatarAssistant) {
+    flex-direction: row !important;
+}
+
+div[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarAssistant"]) [data-testid="stChatMessageContent"],
+.stChatMessage:has(.stChatMessageAvatarAssistant) [data-testid="stChatMessageContent"] {
+    background-color: transparent !important;
+    color: #ECECEC !important;
+    padding: 0.25rem 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+}
+
+div[data-testid="stChatMessage"] h1,
+div[data-testid="stChatMessage"] h2,
+div[data-testid="stChatMessage"] h3,
+div[data-testid="stChatMessage"] h4 {
+    color: #ECECEC !important;
+    font-weight: 600 !important;
+    margin-top: 0.85rem !important;
+    margin-bottom: 0.35rem !important;
+}
+
+div[data-testid="stChatMessage"] a {
+    color: #10A37F !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px !important;
+}
+div[data-testid="stChatMessage"] a:hover {
+    color: #1AD1A5 !important;
+}
+
+/* ── 8. Empty State Hero & Suggestion Buttons (Compact & Left-aligned) ── */
+.rp-empty-hero {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.rp-empty-hero h2 {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    color: #ECECEC !important;
+    letter-spacing: -0.5px;
+    margin: 0 0 16px 0 !important;
+}
+
+.rp-suggestions-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Suggestions: ~40px height, 14px font, 6px 12px padding, left-aligned */
+.rp-suggestions-container button {
+    background: transparent !important;
+    border: 1px solid #2F2F2F !important;
+    border-radius: 10px !important;
+    color: #ECECEC !important;
+    font-size: 14px !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    padding: 6px 12px !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease !important;
+}
+
+.rp-suggestions-container button:hover {
+    background-color: #262626 !important;
+    border-color: #3F3F3F !important;
+    color: #FFFFFF !important;
+}
+
+/* Small secondary download buttons */
+.stDownloadButton > button {
+    background-color: #262626 !important;
+    border: 1px solid #333333 !important;
+    color: #ECECEC !important;
+    border-radius: 6px !important;
+    font-size: 0.82rem !important;
+    padding: 0.35rem 0.7rem !important;
+    transition: background-color 0.15s ease !important;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #333333 !important;
+    color: #FFFFFF !important;
+}
+
+/* Status widget styling */
+[data-testid="stStatusWidget"] {
+    background-color: #262626 !important;
+    border: 1px solid #333333 !important;
+    border-radius: 8px !important;
+    color: #ECECEC !important;
+    max-width: 780px !important;
+    margin: 0 auto !important;
+}
