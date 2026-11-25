@@ -50,6 +50,9 @@ if "messages" not in st.session_state:
 if "pending_topic" not in st.session_state:
     st.session_state["pending_topic"] = None
 
+if "is_researching" not in st.session_state:
+    st.session_state["is_researching"] = False
+
 
 def process_topic(raw_topic: str) -> None:
     """Core topic handler for user input and suggestion clicks."""
@@ -130,9 +133,15 @@ reports_dir = PROJECT_ROOT / "output" / "reports"
 with st.sidebar:
     render_sidebar_brand()
 
-    if st.button("+ New Research", key="btn_new_research", use_container_width=True):
+    if st.button(
+        "+ New Research",
+        key="btn_new_research",
+        disabled=st.session_state["is_researching"],
+        use_container_width=True,
+    ):
         st.session_state["messages"] = []
         st.session_state["pending_topic"] = None
+        st.session_state["is_researching"] = False
         st.rerun()
 
     st.markdown("<div class='rp-sidebar-section-title'>PAST REPORTS</div>", unsafe_allow_html=True)
@@ -162,6 +171,7 @@ with st.sidebar:
                 clean_name,
                 key=f"past_rep_{idx}",
                 help=formatted_date,
+                disabled=st.session_state["is_researching"],
                 use_container_width=True,
             ):
                 try:
@@ -201,10 +211,14 @@ for idx, msg in enumerate(st.session_state["messages"]):
                 msg_index=idx,
             )
 
-# 2. Check and handle pending topic (BEFORE rendering suggestions)
+# 2. Check and handle pending topic (BEFORE rendering suggestions/inputs)
 if st.session_state.get("pending_topic") is not None:
     topic_to_run = st.session_state.pop("pending_topic")
-    process_topic(topic_to_run)
+    try:
+        process_topic(topic_to_run)
+    finally:
+        st.session_state["is_researching"] = False
+        st.rerun()
 
 # 3. Determine if chat is truly in empty state (messages empty AND no pending topic)
 chat_is_empty = (
@@ -224,24 +238,35 @@ if chat_is_empty:
             unsafe_allow_html=True,
         )
 
-        empty_input = st.chat_input("Ask anything... e.g. Future of Robotics", key="empty_chat_input")
+        empty_input = st.chat_input(
+            "Ask anything... e.g. Future of Robotics",
+            key="empty_chat_input",
+            disabled=st.session_state["is_researching"],
+        )
         if empty_input is not None:
             st.session_state["pending_topic"] = empty_input
+            st.session_state["is_researching"] = True
             suggestions_slot.empty()
             st.rerun()
 
         st.markdown("<div class='rp-suggestions-container'>", unsafe_allow_html=True)
         suggestions = [
-            ("", "AI in Healthcare"),
-            ("", "Future of Robotics"),
-            ("", "Trends in Hardware Evolution"),
-            ("", "Renewable Energy Trends"),
+            ("🤖", "AI in Healthcare"),
+            ("🚀", "Future of Robotics"),
+            ("💻", "Trends in Hardware Evolution"),
+            ("🌱", "Renewable Energy Trends"),
         ]
 
         for s_idx, (icon, topic_name) in enumerate(suggestions):
             btn_label = f"{icon}  {topic_name}"
-            if st.button(btn_label, key=f"sugg_{s_idx}", use_container_width=True):
+            if st.button(
+                btn_label,
+                key=f"sugg_{s_idx}",
+                disabled=st.session_state["is_researching"],
+                use_container_width=True,
+            ):
                 st.session_state["pending_topic"] = topic_name
+                st.session_state["is_researching"] = True
                 suggestions_slot.empty()
                 st.rerun()
 
@@ -249,7 +274,12 @@ if chat_is_empty:
 
 else:
     # Chat active: Input pinned at bottom normally
-    active_input = st.chat_input("Ask a follow-up or a new topic...", key="active_chat_input")
+    active_input = st.chat_input(
+        "Ask a follow-up or a new topic...",
+        key="active_chat_input",
+        disabled=st.session_state["is_researching"],
+    )
     if active_input is not None:
         st.session_state["pending_topic"] = active_input
+        st.session_state["is_researching"] = True
         st.rerun()

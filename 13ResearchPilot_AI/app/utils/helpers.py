@@ -22,12 +22,6 @@ def format_research_report(report) -> str:
         for index, item in enumerate(items, start=1):
             output.append(f"   {index}. {item}")
 
-    # Header
-    output.append("=" * width)
-    output.append("                 RESEARCHPILOT AI")
-    output.append("              AI RESEARCH ASSISTANT")
-    output.append("=" * width)
-
     # Research topic
     output.append("")
     output.append(f"RESEARCH TOPIC: {report.topic}")
@@ -67,10 +61,5 @@ def format_research_report(report) -> str:
     else:
         output.append("   No sources available.")
 
-    # Footer
-    output.append("")
-    output.append("=" * width)
-    output.append("              END OF RESEARCH REPORT")
-    output.append("=" * width)
 
     return "\n".join(output)
