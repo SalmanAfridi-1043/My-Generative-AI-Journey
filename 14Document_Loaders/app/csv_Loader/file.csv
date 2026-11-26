@@ -1,0 +1,201 @@
+mcq_id	original_mcq_number	subject	chapter	question	option_a	option_b	option_c	option_d	correct_option	source_page	answer_status
+1	Q.1	Physics	ELECTRONICS	Diffusion of free electrons across the unbiased p-n junction produces	Forward bias	Reverse bias	Break down	Depletion region	D	115	Verified
+2	Q.2	Physics	ELECTRONICS	A depletion region of a semiconductor diode is due to	Absence of current carriers	Reverse biasing	Forward biasing	Crystal doping	A	115	Verified
+3	Q.3	Physics	ELECTRONICS	The barrier potential across the p-n junction is created by	Majority carriers	Minority carriers	Fixed rows of oppositely charged ions	Depletion layer	C	115	Verified
+4	Q.4	Physics	ELECTRONICS	The barrier potential of silicon diode at room temperature is	0.3 V	0.7 V	1 V	2 V	B	115	Verified
+5	Q.5	Physics	ELECTRONICS	Both Ge and Si belong to the following group of periodic table	IV	V	VI	III	A	115	Verified
+6	Q.7	Physics	ELECTRONICS	"The p-n junction, on forward-biasing, acts like a"	Low resistor	High resistor	Inductor	Capacitor	A	116	Verified
+7	Q.8	Physics	ELECTRONICS	A device used for conversion of AC into DC is called	Oscillator	Detector	Amplifier	Rectifier	D	116	Verified
+8	Q.9	Physics	ELECTRONICS	Types of transistor are	Two	Three	One	Four	A	116	Verified
+9	Q.10	Physics	ELECTRONICS	A transistor in a circuit basically acts as	Voltage amplifier	Current amplifier	Power amplifier	Oscillator	B	116	Verified
+10	Q.11	Physics	ELECTRONICS	Which one of the following statements is correct?	A p-n junction conducts only when it is forward biased	A p-n junction does not conduct when it is reverse biased	A p-n junction is unidirectional in action	All of the above	D	116	Verified
+11	Q.12	Physics	ELECTRONICS	A p-n junction or semiconductor diode cannot be used as	An amplifier	A rectifier	A detector	An open or close switch	A	116	Verified
+12	Q.13	Physics	ELECTRONICS	A photodiode is usually made from	Bismuth	Antimony	Silicon	None of them	C	116	Verified
+13	Q.14	Physics	ELECTRONICS	A light emitting diode (LED) is made from	Gallium arsenide (GaAs)	Gallium phosphide (GaP)	Gallium arsenide phosphide (GaAsP)	All of the above	D	117	Verified
+14	Q.15	Physics	ELECTRONICS	A light emitting diode (LED) emits light only when	Forward biased	Reverse biased	Unbiased	None of them	A	117	Verified
+15	Q.16	Physics	ELECTRONICS	A photo-diode can switch its current ON or OFF in	Milli-seconds	Micro-seconds	Nano-seconds	Centi-seconds	C	117	Verified
+16	Q.17	Physics	ELECTRONICS	A photodiode is used for	Photo detection	Automatic switching	Logic circuits	Optical communication equipment	A	117	Verified
+17	Q.18	Physics	ELECTRONICS	The term transistor stands for	Transfer resistor	Transfer of voltage	Transfer of power	Transfer of current	A	117	Verified
+18	Q.19	Physics	ELECTRONICS	Who invented the first junction transistor?	Taylor and Young	Alexanderson	John Bardeen and Shockley	Shells	C	117	Verified
+19	Q.20	Physics	ELECTRONICS	The emitter of a transistor is generally doped heaviest because it	Has to dissipate maximum power	Has to supply the charge carriers	Is the first region of the transistor	Must possess low resistance	B	117	Verified
+20	Q.21	Physics	ELECTRONICS	For proper working of transistors in normal circuit	Emitter-base junction is reverse biased and collector-base junction is forward biased	Emitter-base junction is forward biased and collector-base junction is reverse biased	Emitter-base junction is forward biased and collector-base is forward biased	None of them	B	117	Verified
+21	Q.22	Physics	ELECTRONICS	Transistor is an electronic device which has	Two terminals	Three terminals	Four terminals	None of them	B	117	Verified
+22	Q.23	Physics	ELECTRONICS	For common-emitter configuration of n-p-n transistor the current gain beta is given by	I_C / I_B	I_C / I_E	I_E / I_B	I_B / I_E	A	117	Verified
+23	Q.24	Physics	ELECTRONICS	"The emitter, collector and base currents I_E, I_C and I_B respectively are related as"	I_E = I_C - I_B	I_B = I_E + I_C	I_E = I_C + I_B	I_C = I_E + I_B	C	118	Verified
+24	Q.25	Physics	ELECTRONICS	The value of total collector current in a common emitter circuit is	I_C = beta I_B	I_C = I_B / beta	I_C = beta I_E	I_C = beta / I_B	A	118	Verified
+25	Q.26	Physics	ELECTRONICS	"When the emitter-base junction of a transistor is reverse biased, collector current"	Reverses	Increases	Decreases	Stops	C	118	Verified
+26	Q.27	Physics	ELECTRONICS	"The emitter-base junction of a transistor is forward-biased and collector-base junction is reverse-biased. If the base current is increased, its"	I_C will decrease	V_CE will increase	I_C will increase	V_CC will increase	C	118	Verified
+27	Q.28	Physics	ELECTRONICS	The potential barrier for Si at room temperature is	0.9 volts	0.7 volts	0.3 volts	1 volt	B	118	Verified
+28	Q.29	Physics	ELECTRONICS	The potential barrier for Ge at room temperature is	0.9 volts	0.7 volts	0.3 volts	1 volt	C	118	Verified
+29	Q.30	Physics	ELECTRONICS	Since the input resistance of an ideal OP-amp is infinite	Its output resistance is zero	It becomes a current controlled device	Its input current is zero	None of them	C	118	Verified
+30	Q.31	Physics	ELECTRONICS	"An open loop OP-amplifier has output voltage V_o and difference between inverting and non-inverting input voltage V_i, its open loop gain is given by"	A_OL = V_o / V_i	A_OL = V_o x V_i	None of the two	A_OL = V_i / V_o	A	118	Verified
+31	Q.32	Physics	ELECTRONICS	"The closed loop gain of an OP-amplifier is G = -R_2 / R_1, the negative sign shows that output signal is out of phase w.r.t. input signal by"	45 degrees	90 degrees	180 degrees	270 degrees	C	118	Verified
+32	Q.33	Physics	ELECTRONICS	An OP-amp can be used as	Comparator	Inverting amplifier	Non-inverting amplifier	All of them	D	118	Verified
+33	Q.34	Physics	ELECTRONICS	The emitter-base junction of a transistor is usually	Forward biased	Reverse biased	Non-conducting	Working in the break-down region	A	119	Verified
+34	Q.35	Physics	ELECTRONICS	"For normal operation of the transistor, collector-base junction has to be"	Forward biased	Reverse biased	Non-conducting	Operating in the breakdown region	B	119	Verified
+35	Q.36	Physics	ELECTRONICS	Rectification is done by	Diode	Choke	Capacitor	Transformer	A	119	Verified
+36	Q.37	Physics	ELECTRONICS	The output of 2-input OR gate is 0 only when its	Both inputs are 0	Either input is 1	Both inputs are 1	Either input is 0	A	119	Verified
+37	Q.38	Physics	ELECTRONICS	An XOR gate produces an output only when its two inputs are	High	Low	Different	Same	C	119	Verified
+38	Q.39	Physics	ELECTRONICS	The only function of a NOT gate is to	Stop a signal	Recomplement a signal	Act as a universal gate	Invert an input signal	D	119	Verified
+39	Q.40	Physics	ELECTRONICS	A NOR gate is ON only when its inputs are	ON	Positive	High	OFF	D	119	Verified
+40	Q.41	Physics	ELECTRONICS	The Boolean expression X = A'B + AB' represents the logical operation of the	NAND gate	NOR gate	XOR gate	NOT gate	C	119	Verified
+41	Q.42	Physics	ELECTRONICS	The Boolean expression X = A + B represents the logical operation of the	NAND gate	NOR gate	OR gate	NOT gate	C	119	Verified
+42	Q.44	Physics	ELECTRONICS	Equivalent logic circuit of XOR gate can be designed by the combination of	"AND, OR and NOT gates"	"NAND, NOR and NOT gates"	"NOT, AND and OR gates"	"NOT, AND and NOR gates"	A	120	Verified
+43	Q.45	Physics	ELECTRONICS	Equivalent logic circuit of XNOR gate can be designed by the combination of	"AND, OR and NOT gate"	"AND, NOR and NOT gate"	"NAND, AND and NOR gate"	"NAND, AND and OR gates"	A	120	Verified
+44	Q.46	Physics	ELECTRONICS	Donor impurities are	"Germanium, silicon etc."	"Indium, Gallium etc."	"Antimony, arsenic etc."	"Sodium, Zinc etc."	C	120	Verified
+45	Q.47	Physics	ELECTRONICS	In full wave rectification the output DC voltage across the load is obtained for	The positive half cycle of input AC only	The negative half cycle of input AC only	The complete cycle of input AC	None of these	C	120	Verified
+46	Q.48	Physics	ELECTRONICS	The specially designed semiconductor diodes used as light indicators in electronic circuits are	Photo diodes	Light emitting diodes	Solar cells	Photovoltaic cells	B	120	Verified
+47	Q.49	Physics	ELECTRONICS	The specially designed semiconductor diodes used as fast counters in electronic circuits are	Light emitting diode	Photo diode	Solar cells	Photovoltaic cells	B	120	Verified
+48	Q.50	Physics	ELECTRONICS	Transistor is also used as	Diode	Switching device	Rectifier	P-type material	B	120	Verified
+49	Q.52	Physics	ELECTRONICS	The gain of the non-inverting amplifier can be expressed as	R_1 / R_2	#NAME?	1 + R_2 / R_1	1 - R_2 / R_1	C	121	Verified
+50	Q.53	Physics	ELECTRONICS	A device which converts a physical quantity into electrical voltage is called	Sensor	Switch	Inverter	Amplifier	A	121	Verified
+51	Q.54	Physics	ELECTRONICS	"In the pure form at 0 K, the intrinsic semiconductor behaves like"	Conductor	Insulator	Metals	Semi-metal	B	121	Verified
+52	Q.55	Physics	ELECTRONICS	A P-N junction or semiconductor diode cannot be used as	A rectifier	Detector	Oscillator	An amplifier	D	121	Verified
+53	Q.1	Physics	DAWN OF MODERN PHYSICS	The physics which deals best with the behavior of microscopic particles moving with the speed of light is called	Microscopic physics	Relativistic mechanics	Newtonian mechanics	Classical physics	B	123	Verified
+54	Q.2	Physics	DAWN OF MODERN PHYSICS	"According to Maxwell's theory, light was known to consist of oscillating"	Magnetic field	Electric field	Electric and magnetic fields	Neither electric nor magnetic field	C	123	Verified
+55	Q.3	Physics	DAWN OF MODERN PHYSICS	The famous Michelson-Morley experiment proves that	The light is an energy	The earth rotates about its axis	Light needs medium to travel throughout space	Ether does not exist in space	D	123	Verified
+56	Q.4	Physics	DAWN OF MODERN PHYSICS	A non-inertial frame of reference is that which	Remains at rest	Moves with uniform velocity	Is acted upon by some unbalanced force	All of the above	C	123	Verified
+57	Q.5	Physics	DAWN OF MODERN PHYSICS	Modern physics is largely based upon the work of	"Einstein, J. J. Thomson and Max Planck"	"Michelson, Morley and Compton"	"Bohr, Schrodinger and De-Broglie"	All of the above	D	123	Verified
+58	Q.6	Physics	DAWN OF MODERN PHYSICS	The existence of ether wind was experimentally rejected by	Heisenberg	Einstein	Michelson and Morley	De-Broglie	C	123	Verified
+59	Q.7	Physics	DAWN OF MODERN PHYSICS	All motions are	Absolute	Uniform	Variable	Relative	D	123	Verified
+60	Q.8	Physics	DAWN OF MODERN PHYSICS	"According to Einstein, with the great increase in the speed of the body, the relativistic mass of the body"	Remains constant	Decreases	Increases to infinity	Reduces to zero	C	126	Verified
+61	Q.9	Physics	DAWN OF MODERN PHYSICS	"According to Einstein, with the great increase in the speed of the body, the relativistic length"	Remains constant	Decreases	Increases	Reduces to zero	B	126	Verified
+62	Q.10	Physics	DAWN OF MODERN PHYSICS	"According to Einstein, in an event happening at a great speed, the relativistic time interval"	Decreases	Increases	Remains constant	All of the above	B	126	Verified
+63	Q.11	Physics	DAWN OF MODERN PHYSICS	Which one of the following physical quantities changes with relativistic speed?	Length	Mass	Time	All of the above	D	126	Verified
+64	Q.12	Physics	DAWN OF MODERN PHYSICS	The special theory of relativity was proposed in	1920	1915	1905	1895	C	126	Verified
+65	Q.13	Physics	DAWN OF MODERN PHYSICS	The Einstein's decrease in the relativistic length called as length contraction was explained by	Lorentz	Compton	Bohr	None of the above	A	126	Verified
+66	Q.14	Physics	DAWN OF MODERN PHYSICS	Suggest the correct relativistic speed v of a spaceship at which its relativistic length L becomes half of its original length	v = c	v = 0.5 c	v = 0.87 c	v = sqrt(3/4) c	D	126	Verified
+67	Q.15	Physics	DAWN OF MODERN PHYSICS	If v is the relativistic speed and c is the speed of light then according to Einstein the factor v/c must always be	Equal to 1	Less than 1	Greater than 1	Infinity	B	126	Verified
+68	Q.16	Physics	DAWN OF MODERN PHYSICS	Which according to Einstein is correct?	Nothing can travel equal to speed of light	Speed of light is universal constant	Energy and mass are interconvertible	All of the above	D	126	Verified
+69	Q.17	Physics	DAWN OF MODERN PHYSICS	The energy acquired by a mass of 1 g moving with the speed of light is	3 x 10^8 J	9 x 10^13 J	3 x 10^13 J	9 x 10^16 J	B	126	Verified
+70	Q.18	Physics	DAWN OF MODERN PHYSICS	If a material object moves with the speed of light c its mass becomes	Equal to its rest mass	Four times of its rest mass	Double of its rest mass	Infinite	D	127	Verified
+71	Q.19	Physics	DAWN OF MODERN PHYSICS	"The Einstein's changes in length, mass and time are not observed in common life because"	We don't observe them seriously	The masses are too large	Their speed is too small compared to the speed of light	All of the above	C	127	Verified
+72	Q.20	Physics	DAWN OF MODERN PHYSICS	Energy of a single quantum of electromagnetic radiation is given the name	Photon	One joule	1 eV	1 erg	A	127	Verified
+73	Q.21	Physics	DAWN OF MODERN PHYSICS	A body will behave as an ideal black body when it acts as	A perfect absorber	A perfect radiator	A body having absorption factor = 1	All of the above	D	127	Verified
+74	Q.22	Physics	DAWN OF MODERN PHYSICS	On a hot day white clothes are worn because they are good	Reflectors	Absorbers	Radiators	Emitters	A	127	Verified
+75	Q.23	Physics	DAWN OF MODERN PHYSICS	Blue light has frequency 7.5 x 10^14 cps. Its energy is	3.1 eV	6.2 eV	5.6 eV	9.4 eV	A	127	Verified
+76	Q.24	Physics	DAWN OF MODERN PHYSICS	SI unit of Planck's constant is	J s^-1	J s	J s^-2	J s^2	B	127	Verified
+77	Q.25	Physics	DAWN OF MODERN PHYSICS	Absorption factor of a perfect black body is always	1	Zero	Infinity	100	A	127	Verified
+78	Q.27	Physics	DAWN OF MODERN PHYSICS	A photon is considered to have	Momentum	Energy	Wavelength and frequency	All of the above	D	127	Verified
+79	Q.28	Physics	DAWN OF MODERN PHYSICS	Dimensions of Planck's constant are	[M L^2 T^1]	[M L^2 T^-2]	[M L T^-2]	[M L^2 T^-1]	D	128	Verified
+80	Q.29	Physics	DAWN OF MODERN PHYSICS	The radiations emitted by human body lie in	IR region	UV region	Visible region	None of the above	A	128	Verified
+81	Q.30	Physics	DAWN OF MODERN PHYSICS	A light of suitable frequency after falling on a metal surface ejects electrons. This phenomenon is called	X-rays emission	Compton effect	Photoelectric effect	Nuclear fission	C	128	Verified
+82	Q.31	Physics	DAWN OF MODERN PHYSICS	"When light falls on metal surface, photo-electrons are emitted. If the intensity of light is increased, then which of the following will increase?"	The number of electrons emitted per second	The maximum K.E. of emitted electrons	The minimum K.E. of the emitted electrons	The velocity of the emitted electrons	A	128	Verified
+83	Q.32	Physics	DAWN OF MODERN PHYSICS	The emission of number of photo electrons depends upon	The colour of the body	Frequency of incident light	Shape of the body	Intensity of incident light	D	128	Verified
+84	Q.33	Physics	DAWN OF MODERN PHYSICS	The minimum energy required to eject an electron from a metal surface is called	Minimum energy	Ionization energy	Work function	Threshold energy	C	128	Verified
+85	Q.34	Physics	DAWN OF MODERN PHYSICS	Photocell is a practical application of phenomenon of	Compton effect	Pair production	Annihilation of matter	Photoelectric effect	D	128	Verified
+86	Q.35	Physics	DAWN OF MODERN PHYSICS	The minimum frequency required to eject electrons from a metal surface is called	Minimum frequency	Peak value of frequency	Threshold frequency	Photo frequency	C	128	Verified
+87	Q.36	Physics	DAWN OF MODERN PHYSICS	Successful explanation of photoelectric effect was done by	Compton	Einstein	Heisenberg	De Broglie	B	128	Verified
+88	Q.37	Physics	DAWN OF MODERN PHYSICS	"In 1921, Einstein was awarded Nobel prize for the successful explanation of"	Photoelectric effect	E = m c^2	Special theory of relativity	All of the above	A	128	Verified
+89	Q.38	Physics	DAWN OF MODERN PHYSICS	"The stopping voltage for a certain metal is 100 volts, then the maximum K.E. of photoelectrons is"	100 J	1.6 x 10^-17 J	100 eV	1.6 x 10^17 eV	B	129	Verified
+90	Q.39	Physics	DAWN OF MODERN PHYSICS	"In 1885, photoelectric effect was discovered by"	Maxwell	Einstein	Hertz	Bohr	C	129	Verified
+91	Q.40	Physics	DAWN OF MODERN PHYSICS	"Two photons are produced in electron and positron annihilation, each having energy equal to"	1.02 MeV	2.04 MeV	1.51 MeV	0.51 MeV	D	129	Verified
+92	Q.41	Physics	DAWN OF MODERN PHYSICS	0.1 kg mass will be equivalent to the energy	9 x 10^15 J	5 x 10^8 J	6 x 10^16 J	9 x 10^-16 J	A	129	Verified
+93	Q.42	Physics	DAWN OF MODERN PHYSICS	The speed of photon as compared with the speed of light is always	Same	Greater	Less	All of the above	A	129	Verified
+94	Q.43	Physics	DAWN OF MODERN PHYSICS	The reverse phenomenon of photoelectric effect is called	Photovoltaic effect	Compton effect	X-rays production	None of the above	C	129	Verified
+95	Q.44	Physics	DAWN OF MODERN PHYSICS	The photon has	A very small rest mass	A very large rest mass	A rest mass equal to the rest mass of electron	No rest mass	D	129	Verified
+96	Q.45	Physics	DAWN OF MODERN PHYSICS	A photon is always considered to be	At rest	In motion	In motion with the speed of light	All of the above	C	129	Verified
+97	Q.46	Physics	DAWN OF MODERN PHYSICS	Identify the correct statement about the photon	Mass = h f / c^2	Energy of photon = h f	Photon is particle as well as wave	All of the above	D	129	Verified
+98	Q.47	Physics	DAWN OF MODERN PHYSICS	The principle of complementarity states that light is	Particle type only	Wave type only	Either a particle type or a wave type	Both particle and wave type	D	129	Verified
+99	Q.48	Physics	DAWN OF MODERN PHYSICS	The reverse process of pair production is called	Annihilation phenomenon	Materialization of energy	Fission	Fusion	A	130	Verified
+100	Q.49	Physics	DAWN OF MODERN PHYSICS	A particle with rest mass m_0 and relativistic mass m has a kinetic energy equal to	m c^2	(m - m_0) c^2	(1/2)(m - m_0) c^2	(1/2)(m v^2 - m_0 c^2)	B	130	Verified
+101	Q.50	Physics	DAWN OF MODERN PHYSICS	The work function for a metal is 4.14 eV. The threshold frequency of incident light for the metal is	10^12 Hz	10^13 Hz	10^15 Hz	10^16 Hz	C	130	Verified
+102	Q.51	Physics	DAWN OF MODERN PHYSICS	The mass of an object will be doubled at speed	1.6 x 10^8 m s^-1	2.6 x 10^8 m s^-1	2.6 x 10^7 m s^-1	2.6 x 10^9 m s^-1	B	130	Verified
+103	Q.52	Physics	DAWN OF MODERN PHYSICS	The special theory of relativity is based upon	One postulate	Two postulates	Three postulates	Four postulates	B	130	Verified
+104	Q.53	Physics	DAWN OF MODERN PHYSICS	"If the energy of a photon is E, it is equivalent to a relativistic mass"	E / c^2	E / c	E c	E c^2	A	130	Verified
+105	Q.54	Physics	DAWN OF MODERN PHYSICS	The antiparticle of electron is	Proton	Positron	Meson	Neutron	B	130	Verified
+106	Q.55	Physics	DAWN OF MODERN PHYSICS	What is the de Broglie wavelength of a particle of mass m and K.E. equal to E?	h / sqrt(2 m E)	sqrt(2 m E) / h	h sqrt(2 m E)	h / sqrt(m E)	A	130	Verified
+107	Q.1	Physics	ATOMIC SPECTRA	The first successful theory of atomic structure was introduced by	Niels Bohr	Rutherford	J. J. Thomson	Einstein	A	132	Verified
+108	Q.2	Physics	ATOMIC SPECTRA	The radiation emitted from hydrogen filled discharge tube shows	Line spectrum	Band spectrum	Continuous spectrum	Absorption spectrum	A	132	Verified
+109	Q.3	Physics	ATOMIC SPECTRA	Bohr atomic model of hydrogen atom was proposed by Bohr in	1925	1913	1915	1928	B	132	Verified
+110	Q.4	Physics	ATOMIC SPECTRA	"If the radius of first orbit of hydrogen atom is 0.53 Angstrom, the radius of second orbit will be"	2.12 Angstrom	0.212 Angstrom	21.2 Angstrom	0.14 Angstrom	A	132	Verified
+111	Q.5	Physics	ATOMIC SPECTRA	The electric P.E. of an electron in an orbit at distance r_n from the positive charge is	k e^2 / r_n^2	#NAME?	k e^2 / r_n	#NAME?	B	132	Verified
+112	Q.6	Physics	ATOMIC SPECTRA	The experimental value of Rydberg constant R_H is	1.097 x 10^-10 m^-1	1.097 x 10^8 m^-1	1.097 x 10^7 m^-1	109.7 x 10^-8 m^-1	C	132	Verified
+113	Q.7	Physics	ATOMIC SPECTRA	Total energy of an electron in an orbit around the nucleus is always	Positive	Negative	Zero	None of them	B	132	Verified
+114	Q.8	Physics	ATOMIC SPECTRA	Net force on an electron in a circular orbit around the nucleus is	Negative	Positive	Zero	None of them	C	132	Verified
+115	Q.9	Physics	ATOMIC SPECTRA	Hydrogen atom is in its ground (normal) state when the only electron is	Within the nucleus	In its highest energy level	In its lowest energy level	In valence shell	C	133	Verified
+116	Q.10	Physics	ATOMIC SPECTRA	According to Bohr's theory the outer orbits have greater energy than the inner orbits	Correct	Incorrect	All of the orbits have equal energy	None of above	A	133	Verified
+117	Q.11	Physics	ATOMIC SPECTRA	The value of Planck's constant is	6.63 x 10^34 J s	6.63 x 10^-34 J s	6.63 x 10^30 J s	6.63 x 10^-30 J s	B	133	Verified
+118	Q.12	Physics	ATOMIC SPECTRA	"In Bohr atom model, the electron does not fall into the nucleus because"	The quantum rules do not allow it	The electrostatic attraction is balanced by centrifugal force	The electron is not a particle	None of the above	B	133	Verified
+119	Q.13	Physics	ATOMIC SPECTRA	An electron in an atom will absorb energy only when	It jumps from an outer to an inner orbit	It jumps from an inner to an outer orbit	None of the above	All of the above	B	133	Verified
+120	Q.14	Physics	ATOMIC SPECTRA	If an electron in an atom jumps down from outer to inner orbit it will	Emit energy	Absorb energy	Neither emit nor absorb energy	All of the above	A	133	Verified
+121	Q.15	Physics	ATOMIC SPECTRA	"If an electron exists in the excited state n = 4, the maximum number of transitions will be"	One	Three	Five	Six	D	133	Verified
+122	Q.16	Physics	ATOMIC SPECTRA	Isotope of hydrogen is	Deuterium	Tritium	Protium	All of above	D	133	Verified
+123	Q.17	Physics	ATOMIC SPECTRA	Brackett series is obtained when electronic transitions terminate on the	1st orbit	3rd orbit	2nd orbit	4th orbit	D	133	Verified
+124	Q.18	Physics	ATOMIC SPECTRA	Which one of the following series lies in the ultraviolet region?	Lyman series	Balmer series	Pfund series	Brackett series	A	134	Verified
+125	Q.19	Physics	ATOMIC SPECTRA	Balmer series is of historical importance as it	Lies in the infra-red region	Lies in the far-ultraviolet region	Lies in the visible region	Lies in the far-infra red region	C	134	Verified
+126	Q.20	Physics	ATOMIC SPECTRA	In Bohr's atom model the lowest orbit corresponds to	Maximum energy	Minimum energy	Zero energy	Infinite energy	B	134	Verified
+127	Q.21	Physics	ATOMIC SPECTRA	The numerical value of binding energy is maximum for	1st orbit	3rd orbit	2nd orbit	4th orbit	A	134	Verified
+128	Q.22	Physics	ATOMIC SPECTRA	Total energy of an electron in an orbit around the nucleus is the sum of	Rotational and vibrational kinetic energies	Vibrational and translational kinetic energies	Potential and translational kinetic energies	Rotational and translational kinetic energies	C	134	Verified
+129	Q.23	Physics	ATOMIC SPECTRA	Balmer series is obtained when all the transitions of electron terminate on	4th orbit	3rd orbit	5th orbit	2nd orbit	D	134	Verified
+130	Q.24	Physics	ATOMIC SPECTRA	The ratio of volume of an atom to the volume of its nucleus is	10^3	10^6	10^9	10^12	D	134	Verified
+131	Q.25	Physics	ATOMIC SPECTRA	The numerical value of ground state energy of an electron in an orbit is the measure of	Excitation energy	Ionization energy	Excitation potential	None of the above	B	134	Verified
+132	Q.26	Physics	ATOMIC SPECTRA	X-rays are similar in nature to	Positive rays	Cathode rays	Gamma rays	Alpha rays	C	134	Verified
+133	Q.27	Physics	ATOMIC SPECTRA	"If the ionization energy of hydrogen is 13.6 eV, its ionization potential will be"	13.6 V	136.0 V	3.4 V	None of the above	A	134	Verified
+134	Q.28	Physics	ATOMIC SPECTRA	Laser is a device which can produce	An intense beam of light	Coherent beam of light	Monochromatic beam of light	All of the above	D	134	Verified
+135	Q.29	Physics	ATOMIC SPECTRA	The name electron was suggested by	Rutherford	Chadwick	J. J. Thomson	Stoney	D	135	Verified
+136	Q.30	Physics	ATOMIC SPECTRA	The energy corpuscles were called photons by	Max Planck	Einstein	Rutherford	Bohr	B	135	Verified
+137	Q.31	Physics	ATOMIC SPECTRA	Tick the correct statement	Classical mechanics deals with objects of large masses moving with small velocities	Relativistic mechanics deals with extremely large velocities	Quantum or wave mechanics deals with extremely small masses (electronic masses)	All of the above	D	135	Verified
+138	Q.32	Physics	ATOMIC SPECTRA	Tick the wrong statement	Special theory of relativity deals with inertial frames	The laws of physics hold good in all frames of reference in uniform rectilinear motion	Special theory of relativity predicts that space and time will disappear along with material objects	Action can be measured with an accuracy better than h	D	135	Verified
+139	Q.33	Physics	ATOMIC SPECTRA	Mark the correct statement	Velocity of light in free space is a universal constant regardless of motion of source and observer	All frames of uniform rectilinear motion are equivalent	Waves can exhibit particle behavior and particles can exhibit wave behavior	All of the above	D	135	Verified
+140	Q.34	Physics	ATOMIC SPECTRA	The energy of the 4th orbit in hydrogen atom is	-2.5 eV	-3.5 eV	-0.85 eV	-13.6 eV	C	135	Verified
+141	Q.35	Physics	ATOMIC SPECTRA	Total energy of the electron in the state n = infinity of H-atom is	Zero	Infinite	1.36 eV	3.4 eV	A	135	Verified
+142	Q.36	Physics	ATOMIC SPECTRA	The first excitation energy of H-atom will be	10.2 eV	3.4 eV	13.6 eV	Both A and B	A	135	Verified
+143	Q.37	Physics	ATOMIC SPECTRA	X-rays were discovered by	Becquerel	Marie Curie	Roentgen	Laue	C	135	Verified
+144	Q.39	Physics	ATOMIC SPECTRA	Helium-Neon laser discharge tube contains Neon	25%	40%	15%	30%	C	136	Verified
+145	Q.40	Physics	ATOMIC SPECTRA	The X-rays diffraction with crystal was first studied by	Laue	W. H. Bragg	W. L. Bragg	Young	A	136	Verified
+146	Q.41	Physics	ATOMIC SPECTRA	Continuous X-rays depend upon	Voltage of the source	Atomic number of target material	Current	All of the above	D	136	Verified
+147	Q.42	Physics	ATOMIC SPECTRA	X-ray photons cannot produce pair production because	Their rest mass and charge are zero	They are electromagnetic waves	Their energy is less than the rest mass energy of the pair 2 m_0 c^2 = 1.02 MeV	None of these	C	136	Verified
+148	Q.43	Physics	ATOMIC SPECTRA	Which one of the following is the innermost shell?	M-shell	K-shell	L-shell	N-shell	B	136	Verified
+149	Q.44	Physics	ATOMIC SPECTRA	K-series of characteristic X-rays spectrum results when all the transitions of inner-shell electrons terminate on	L-shell	M-shell	K-shell	N-shell	C	136	Verified
+150	Q.47	Physics	ATOMIC SPECTRA	Which of the following is incorrect about X-rays?	X-rays can damage living tissues	X-rays can cause ionization of atoms	X-rays can be diffracted by crystal lattice	X-rays cannot cause photoelectric effect	D	136	Verified
+151	Q.48	Physics	ATOMIC SPECTRA	Production of X-rays can be regarded as the inverse of	Compton effect	Pair production	Photoelectric effect	Annihilation of matter	C	136	Verified
+152	Q.49	Physics	ATOMIC SPECTRA	X-rays can be used to	Detect fault in electronic devices	Detect heart disease	Detect submarine under seawater	Detect flaws in welding and bone fracture etc.	D	137	Verified
+153	Q.50	Physics	ATOMIC SPECTRA	The idea of laser was first introduced in 1958 by	C. H. Townes (USA) and Arthur L. Schawlow	Dr. C. Gilbert Young	Dr. Gratting	Frank Whittle	A	137	Verified
+154	Q.1	Physics	NUCLEAR PHYSICS	The central part of an atom is called	Shell	Cavity	Nucleus	Core	C	138	Verified
+155	Q.2	Physics	NUCLEAR PHYSICS	The number of protons + neutrons present in any nucleus is called	Charge number	Mass number	Atomic number	Quantum number	B	138	Verified
+156	Q.3	Physics	NUCLEAR PHYSICS	The number of protons or electrons of any neutral atom gives the	Charge number	Mass number	Quantum number	All of the above	A	138	Verified
+157	Q.4	Physics	NUCLEAR PHYSICS	The charge or atomic number is usually denoted by	A	Z	C	N	B	138	Verified
+158	Q.5	Physics	NUCLEAR PHYSICS	The number of neutrons in any nucleus can be given by	N = A + Z	N = Z - A	N = A - Z	Z = N	C	138	Verified
+159	Q.6	Physics	NUCLEAR PHYSICS	The number of neutrons in the nucleus of U-235 (Z = 92) is	Infinite	92	235	143	D	138	Verified
+160	Q.7	Physics	NUCLEAR PHYSICS	Neutron was discovered by	Chadwick	J. J. Thomson	Rutherford	Millikan	A	138	Verified
+161	Q.8	Physics	NUCLEAR PHYSICS	Nucleus was discovered in 1911 by	Chadwick	J. J. Thomson	Rutherford	Bohr	C	138	Verified
+162	Q.9	Physics	NUCLEAR PHYSICS	Rutherford discovered the nucleus by using	X-rays	Gamma-rays	Beta-particles	Alpha-particles	D	138	Verified
+163	Q.10	Physics	NUCLEAR PHYSICS	1 amu is equal to	1.66 x 10^-24 kg	1.66 x 10^-19 kg	1.66 x 10^-21 kg	1.66 x 10^-27 kg	D	138	Verified
+164	Q.11	Physics	NUCLEAR PHYSICS	In Rutherford experiment some alpha-particles deflected back because	Of great density of gold	Of less penetrating power	Of the repulsive force of nucleus of gold atom	Of small momentum of alpha-particles	C	139	Verified
+165	Q.12	Physics	NUCLEAR PHYSICS	The diameter (size) of the atom is of the order of	10^10 m	10^-10 m	10^14 m	10^-14 m	B	139	Verified
+166	Q.13	Physics	NUCLEAR PHYSICS	A particle containing a mass of an electron but charge of a proton is called	Pion	Hadron	Positron	Antiproton	C	139	Verified
+167	Q.14	Physics	NUCLEAR PHYSICS	Nuclei having same atomic number but different mass numbers are called	Isobars	Isotopes	Common atoms	Similar ions	B	139	Verified
+168	Q.15	Physics	NUCLEAR PHYSICS	Isotopes of the nucleus of uranium are	U-234	U-235	U-238	All of the above	D	139	Verified
+169	Q.16	Physics	NUCLEAR PHYSICS	The chemical properties of any element depend upon its	Number of isotopes	Number of electrons	Atomic mass	All of the above	B	139	Verified
+170	Q.17	Physics	NUCLEAR PHYSICS	Atomic mass-spectrograph is used to determine the	No. of protons	No. of electrons	Isotopes of an element	Magnitude of Coulomb force present	C	139	Verified
+171	Q.18	Physics	NUCLEAR PHYSICS	The nucleus of uranium-235 differs from a nucleus of uranium-238 in that the latter contains	3 more neutrons	3 more electrons	3 more protons	3 more ions	A	139	Verified
+172	Q.19	Physics	NUCLEAR PHYSICS	The mass of the nucleus is always less than the sum of the masses of protons and neutrons (nucleons) which compose it; this difference is called	Mass number	Nuclear mass	Mass defect	Real mass	C	139	Verified
+173	Q.20	Physics	NUCLEAR PHYSICS	The work required to separate the nucleons against the strong attractive nuclear force is called	Coulomb force	Nuclear binding energy	Restoring force	Nuclear work	B	139	Verified
+174	Q.21	Physics	NUCLEAR PHYSICS	The binding energy per nucleon can be obtained by	Counting the no. of electrons	Dividing it by no. of electrons	By multiplying it with no. of electrons	Dividing the binding energy with the total no. of nucleons	D	140	Verified
+175	Q.22	Physics	NUCLEAR PHYSICS	Phenomenon of natural radioactivity was discovered by	Madam Curie	Chadwick	Rutherford	H. Becquerel	D	140	Verified
+176	Q.23	Physics	NUCLEAR PHYSICS	"The natural emission of alpha, beta and gamma radiation from a certain element is called"	Black body radiations	Heat radiations	Radioactivity	All of the above	C	140	Verified
+177	Q.24	Physics	NUCLEAR PHYSICS	"If a nucleus emits an alpha particle, its mass number decreases by 4 while charge number decreases by"	4	3	2	1	C	140	Verified
+178	Q.25	Physics	NUCLEAR PHYSICS	The half life of a radioactive element is given by	T_1/2 = 0.693 / lambda	T_1/2 = 0.603 / lambda	T_1/2 = 0.693 lambda	T_1/2 = 0.603 lambda	A	140	Verified
+179	Q.26	Physics	NUCLEAR PHYSICS	Gamma ray emission from the nucleus of an atom causes	Change in A	Change in Z only	Change in both A and Z	No change in A and Z	D	140	Verified
+180	Q.27	Physics	NUCLEAR PHYSICS	During gamma-decay	A changes by 4 while Z changes by 2	A remains constant while Z changes by +/- 1	A and Z both change by 2	A and Z both remain unchanged	D	140	Verified
+181	Q.28	Physics	NUCLEAR PHYSICS	The length of the time taken by a radioactive element to decay half of its original number of atoms is called	Half-life of a radioactive material	Mean-life of a radioactive material	Life-time of a radioactive material	All of the above	A	140	Verified
+182	Q.29	Physics	NUCLEAR PHYSICS	The half life of a radioactive element depends upon the	Temperature	Atmospheric pressure	Number of nucleons (nature of nucleus)	All of the above	C	140	Verified
+183	Q.30	Physics	NUCLEAR PHYSICS	The reciprocal of decay constant of a radioactive material gives	Curie	Mean life	Half life	Total life	B	140	Verified
+184	Q.31	Physics	NUCLEAR PHYSICS	The Curie is a unit used in	Solar energy	Binding energy	Radioactivity	Transmissibility	C	141	Verified
+185	Q.32	Physics	NUCLEAR PHYSICS	The SI unit of activity is	Becquerel (Bq)	Pascal (Pa)	Newton (N)	Cycle per second (CPS)	A	141	Verified
+186	Q.33	Physics	NUCLEAR PHYSICS	The radioactivity happening in any element can be measured by units of	Becquerel (Bq) only	Curie (Ci) only	Both Bq and Ci	None of these	C	141	Verified
+187	Q.34	Physics	NUCLEAR PHYSICS	The radioactive decay obeys the law	N = N_0 e^(-lambda t)	N = N_0 e^(lambda t)	N = N_0 e^(lambda / t)	N = N_0 e^(t / lambda)	A	141	Verified
+188	Q.35	Physics	NUCLEAR PHYSICS	The moderator used in a nuclear reactor is	Calcium	Graphite	Sodium	Aluminum	B	141	Verified
+189	Q.36	Physics	NUCLEAR PHYSICS	Hydrogen bomb is an example of	Nuclear fission	Nuclear fusion	Chain reaction	None of these	B	141	Verified
+190	Q.37	Physics	NUCLEAR PHYSICS	An element with Z > 83 will decay	By heating it	By applying external potential	Naturally	None of the above	C	141	Verified
+191	Q.39	Physics	NUCLEAR PHYSICS	One curie is equal to the activity of how much radium?	1 gm	5 gm	10 gm	None of the above	A	141	Verified
+192	Q.40	Physics	NUCLEAR PHYSICS	A nuclear process in which a heavy nucleus is broken into intermediate nuclei along with release of energy is called	Nuclear fission	Nuclear fusion	Chain reaction	Nuclear reaction	A	141	Verified
+193	Q.41	Physics	NUCLEAR PHYSICS	An alpha particle has a charge of	+2e	-2e	e	+3e	A	141	Verified
+194	Q.42	Physics	NUCLEAR PHYSICS	Pair production can take place only with	X-rays	Gamma-rays	Ultraviolet rays	Infrared rays	B	141	Verified
+195	Q.43	Physics	NUCLEAR PHYSICS	Average number of neutrons produced in each fission reaction are	5	3	2.5	Infinite	B	142	Verified
+196	Q.44	Physics	NUCLEAR PHYSICS	Geiger counter is a device to detect	Mass	Momentum	Nuclear radiation	Charge	C	142	Verified
+197	Q.45	Physics	NUCLEAR PHYSICS	Various types of cancer are treated by	Cobalt-60	Strontium-90	Carbon-14	Nickel-63	A	142	Verified
+198	Q.46	Physics	NUCLEAR PHYSICS	The names alpha and beta for radioactive radiation were suggested by	Chadwick	Rutherford	Fermi	Ohm	B	142	Verified
+199	Q.47	Physics	NUCLEAR PHYSICS	The best nuclear fuel used in a nuclear reactor is	Uranium-236	Plutonium-239	Thorium-236	Neptunium-239	B	142	Verified
+200	Q.49	Physics	NUCLEAR PHYSICS	The types of quarks are	6	3	4	2	A	142	Verified
