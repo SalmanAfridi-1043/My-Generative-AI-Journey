@@ -1,0 +1,156 @@
+RAG — Complete Core Learning Roadmap
+
+1. RAG Foundations
+   - What is RAG?
+   - What problems does RAG solve?
+   - How does RAG work?
+   - RAG Architecture and Workflow
+   - RAG vs Fine-tuning vs Prompt Engineering
+   - Basic RAG Use Cases
+
+2. LLM Integration
+   - LLM APIs (Gemini / OpenAI)
+   - OpenAI SDK
+   - API Keys and Environment Variables
+   - Message Types
+   - Making LLM Calls
+   - Building a Simple Chatbot
+   - Temperature and Other Basic Parameters
+
+3. Prompt Engineering
+   - Zero-shot Prompting
+   - One-shot and Few-shot Prompting
+   - Persona-based Prompting
+   - Chain-of-Thought (CoT)
+   - System and User Prompts
+   - Prompt Templates
+   - Context-based Prompting
+
+4. Structured Outputs
+   - Structured vs Unstructured Outputs
+   - JSON Outputs
+   - Pydantic Models
+   - LLM Structured Responses
+   - Output Validation
+
+5. Tool Calling
+   - What is Tool Calling?
+   - Function / Tool Definitions
+   - Tool Calling Workflow
+   - Creating Custom Tools
+   - Executing Tool Calls
+   - Handling Tool Results
+   - Multiple Tool Calls
+
+6. LangChain Fundamentals
+   - What is LangChain?
+   - LangChain Architecture and Components
+   - Models and Chat Models
+   - Message Types
+   - Prompt Templates
+   - Output Parsers
+   - Structured Output with LangChain
+   - Tools in LangChain
+   - Chains and LCEL
+   - Runnable Components
+   - Basic LangChain Workflow
+
+7. Vector Stores and Embeddings
+   - What is a Vector?
+   - Dense vs Sparse Vectors
+   - What are Embeddings?
+   - How Embedding Models Work
+   - Embedding Models and Dimensions
+   - Text-to-Vector Conversion
+   - Keyword Search vs Semantic Search
+   - Similarity Search
+   - Cosine Similarity
+   - Top-K Results
+   - What is a Vector Database?
+   - Vector Database vs Traditional Database
+   - Vector Database Setup
+   - Collections and Documents
+   - Storing and Retrieving Vectors
+   - Metadata Filtering
+   - Hybrid Search
+   - FAISS / ChromaDB / Qdrant (basic familiarity)
+
+8. Document Processing and Ingestion Pipeline
+   - Document Loaders
+   - Supported Document Formats (PDF, TXT, DOCX, CSV)
+   - Document Parsing and Text Extraction
+   - Data Cleaning and Preprocessing
+   - Metadata Extraction
+   - Document Chunking
+   - Fixed-size Chunking
+   - Recursive Chunking
+   - Semantic Chunking
+   - Structure-aware Chunking
+   - Chunk Size and Overlap
+   - Document Embedding
+   - Vector Storage
+   - Indexing
+   - Building a Complete Ingestion Pipeline
+
+9. Retrieval Pipeline
+   - What is a Retriever?
+   - Query Processing
+   - Query Embedding
+   - Semantic Retrieval
+   - Keyword Retrieval
+   - Hybrid Retrieval
+   - Top-K Retrieval
+   - Similarity Threshold
+   - Metadata Filtering
+   - Query Rewriting
+   - Query Expansion
+   - HyDE (Hypothetical Document Embeddings)
+   - Re-ranking
+   - Context Selection
+   - Building a Complete Retrieval Pipeline
+
+10. RAG Generation Pipeline
+    - Combining Retrieved Context with User Queries
+    - Context Injection
+    - RAG Prompt Templates
+    - Context Window and Token Limits
+    - LLM Answer Generation
+    - Source Attribution and Citations
+    - Handling Missing Information
+    - Reducing Hallucinations
+    - Building a Complete RAG Pipeline
+
+11. Conversational RAG
+    - Chat History Management
+    - Contextual Question Understanding
+    - Follow-up Questions
+    - Query Reformulation
+    - Conversational Retrieval Chain
+    - Maintaining Conversation Context
+
+12. RAG Evaluation and Optimization
+    - Retrieval Quality
+    - Answer Relevance
+    - Faithfulness
+    - Context Relevance
+    - RAG Evaluation Metrics
+    - Basic RAG Evaluation Tools (RAGAS)
+    - Improving Chunking
+    - Improving Retrieval
+    - Improving Generation
+    - Common RAG Problems and Solutions
+
+13. RAG Application Development
+    - Complete RAG Project Structure
+    - Integrating RAG with FastAPI
+    - Document Upload API
+    - Document Ingestion API
+    - Question-Answering API
+    - Connecting Frontend with RAG Backend
+    - Environment Variables and Configuration
+    - Error Handling
+    - Basic Authentication and Document Access Control
+    - Updating and Deleting Documents
+    - End-to-End RAG Application
+
+
