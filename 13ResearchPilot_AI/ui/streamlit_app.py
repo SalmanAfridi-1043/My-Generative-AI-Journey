@@ -113,7 +113,9 @@ def process_topic(raw_topic: str) -> None:
                 if hasattr(report, "model_dump")
                 else (report.dict() if hasattr(report, "dict") else report)
             )
-            render_download_buttons(report_data, saved_path=saved_path, msg_index=msg_index)
+            render_download_buttons(
+                report_data, saved_path=saved_path, msg_index=msg_index
+            )
 
             # Store in session state for instant retrieval on rerun
             st.session_state["messages"].append(
@@ -144,7 +146,10 @@ with st.sidebar:
         st.session_state["is_researching"] = False
         st.rerun()
 
-    st.markdown("<div class='rp-sidebar-section-title'>PAST REPORTS</div>", unsafe_allow_html=True)
+    st.markdown(
+        "<div class='rp-sidebar-section-title'>PAST REPORTS</div>",
+        unsafe_allow_html=True,
+    )
 
     past_files = []
     if reports_dir.exists() and reports_dir.is_dir():
@@ -191,9 +196,7 @@ with st.sidebar:
         st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown(
-        "<p class='rp-sidebar-footer'>"
-        "Built with LangChain, Tavily and Streamlit."
-        "</p>",
+        "<p class='rp-sidebar-footer'>Built with LangChain, Tavily and Streamlit.</p>",
         unsafe_allow_html=True,
     )
 
@@ -251,10 +254,10 @@ if chat_is_empty:
 
         st.markdown("<div class='rp-suggestions-container'>", unsafe_allow_html=True)
         suggestions = [
-            ("🤖", "AI in Healthcare"),
-            ("🚀", "Future of Robotics"),
-            ("💻", "Trends in Hardware Evolution"),
-            ("🌱", "Renewable Energy Trends"),
+            ("", "AI in Healthcare"),
+            ("", "Future of Robotics"),
+            ("", "Trends in Hardware Evolution"),
+            ("", "Renewable Energy Trends"),
         ]
 
         for s_idx, (icon, topic_name) in enumerate(suggestions):
@@ -275,7 +278,7 @@ if chat_is_empty:
 else:
     # Chat active: Input pinned at bottom normally
     active_input = st.chat_input(
-        "Ask a follow-up or a new topic...",
+        "Ask something",
         key="active_chat_input",
         disabled=st.session_state["is_researching"],
     )
